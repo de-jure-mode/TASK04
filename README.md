@@ -1,7 +1,6 @@
-#TASK04 СЕТТИНГ-КИБЕРПАНК
+Task-4
 
 ```csharp
-
 using System;
 
 class Program
@@ -13,7 +12,7 @@ class Program
         int restoreUses = 5;
 
         Console.WriteLine("=== СЕТТИНГ: КИБЕРПАНК ===");
-        Console.WriteLine("Вы — нетраннер-наемник. Ваша цель — прорваться сквозь защиту мегакорпорации.\n");
+        Console.WriteLine("Вы — нетраннер-наемник. Ваша цель — получить доступ к ядру ИИ.\n");
 
         int[][] enemies = new int[][]
         {
@@ -46,7 +45,7 @@ class Program
                 do
                 {
                     Console.WriteLine("\nВыберите действие:");
-                    Console.WriteLine("1 — Базовая атака (расход ЦП: 0)");
+                    Console.WriteLine("1 — Загрузить вирус (расход ЦП: 0)");
                     Console.WriteLine("2 — Взлом ядра (расход ОЗУ: 2)");
                     Console.WriteLine("3 — Экранирование (снижение входящего урона на 50%)");
                     Console.WriteLine("4 — Восстановление ОЗУ (расход: 1 использование)");
@@ -94,14 +93,14 @@ class Program
                 {
                     case 1:
                         int baseDamage = 25;
-                        Console.WriteLine($"\n[АТАКА] Пакет данных отправлен. Урон: {baseDamage}");
+                        Console.WriteLine($"\n[АТАКА] Вирус загружен. Урон: {baseDamage}");
                         enemyHp -= baseDamage;
                         break;
 
                     case 2:
                         playerMemory -= 2;
                         int critDamage = new Random().Next(30, 50);
-                        Console.WriteLine($"\n[ВЗЛОМ] Перегрузка шины! Урон: {critDamage}");
+                        Console.WriteLine($"\n[ВЗЛОМ] Взлом удался! Урон: {critDamage}");
                         enemyHp -= critDamage;
                         break;
 
@@ -113,7 +112,7 @@ class Program
                     case 4:
                         restoreUses--;
                         playerMemory += 3;
-                        if (playerMemory > 5) playerMemory = 5;
+                        if (playerMemory > 5) playerMemory = 10;
                         Console.WriteLine($"\n[ВОССТАНОВЛЕНИЕ] ОЗУ пополнено. Осталось восстановлений: {restoreUses}");
                         break;
 
@@ -209,5 +208,6 @@ class Program
         Console.ResetColor();
         Console.WriteLine($"] ({current}/{max})");
     }
-}
-// Белозеров Павел , Аристов Максим... (ИГРА ПО СЕТТИНГУ-КИБЕР ПАНКА ОЧЕНЬ КРУТАЯ В КОНСОЛЬКЕ ЙОУ)
+  }
+```
+// Делали Аристов и Белозеров игра (КИБЕРПАНК)
