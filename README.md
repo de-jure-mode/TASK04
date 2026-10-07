@@ -36,7 +36,7 @@ class Program
 
             while (playerIntegrity > 0 && enemyHp > 0)
             {
-                DrawBar("Целостность", playerIntegrity, 100, ConsoleColor.Green);
+                DrawBar("Целостность", playerIntegrity, 150, ConsoleColor.Green);
                 DrawBar("Оперативная память", playerMemory, 10, ConsoleColor.Cyan);
                 DrawBar("HP " + enemyName, enemyHp, enemies[wave][1], ConsoleColor.Red);
                 Console.WriteLine();
