@@ -1,3 +1,12 @@
+<img width="1920" height="1080" alt="2026-10-08_08-51-44" src="https://github.com/user-attachments/assets/d5a6199c-dd19-4b6d-8280-bc8e454ba047" />
+<img width="1920" height="1080" alt="2026-10-08_08-52-11" src="https://github.com/user-attachments/assets/0af76cda-746a-4f48-ac40-80657497afa3" />
+<img width="1920" height="1080" alt="2026-10-08_08-52-33" src="https://github.com/user-attachments/assets/d4852105-0a48-4738-9f21-05a908adf0d0" />
+<img width="1920" height="1080" alt="2026-10-08_08-52-43" src="https://github.com/user-attachments/assets/873247a2-1750-46f1-899f-471d5649390a" />
+<img width="1920" height="1080" alt="2026-10-08_08-52-43" src="https://github.com/user-attachments/assets/fa94affd-924a-4f2a-a120-7c69a874f806" />
+<img width="1920" height="1080" alt="2026-10-08_08-52-33" src="https://github.com/user-attachments/assets/0fa583be-b8a8-432e-a763-f28064408944" />
+<img width="1920" height="1080" alt="2026-10-08_08-51-44" src="https://github.com/user-attachments/assets/f3de0233-97b9-4293-baa0-a72aa1b7cda3" />
+<img width="1920" height="1080" alt="2026-10-08_08-52-11" src="https://github.com/user-attachments/assets/cb4caaf5-8035-49c4-9fe5-51a8666cba47" />
+<img width="1920" height="1080" alt="2026-10-08_08-51-44" src="https://github.com/user-attachments/assets/dfc705cf-4e4d-4eef-9bdc-57d2b09c4faa" />
 Task-4
 
 ```csharp
